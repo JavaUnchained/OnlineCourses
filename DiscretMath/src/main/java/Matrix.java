@@ -3,16 +3,58 @@ import java.util.function.Predicate;
 public class Matrix {
     public static void main(String[] args) throws Exception {
         int[][] matrix2x2 = {{2,3}, {1,1}};
-        int[][] notMatrix2x2 = {{2,3,3}, {1,1}};
+        int[][] matrix3x3 = {{1, 2, 1}, {3, -1, -1}, {-2, 2, 3}};
+        int[][] notMatrix = {{2,3,3}, {1,1}};
         System.out.println(deter2x2( matrix2x2));
+        System.out.println(deter3x3(matrix3x3));
+
+        System.out.println(is2x2Matrix(matrix2x2));
+        System.out.println(is2x2Matrix(matrix3x3));
+        System.out.println(is2x2Matrix(notMatrix));
 //        System.out.println(deter2x2( notMatrix2x2));
     }
 
     //******************* Нахождение детерминантов матриц**************************//
     private static int deter2x2(int[][] matrix) throws Exception {
-        Predicate<int[][]> is2x2 = a -> a.length == a[0].length && a.length == a[1].length;
-        if(is2x2.test(matrix)){
+        if(isMatrix(matrix)){
             return matrix[0][0] * matrix[1][1] - matrix[0][1] * matrix[1][0];
         }else throw new Exception("Is not 2x2 matrix");
     }
+
+    private static int deter3x3(int[][] matrix) throws Exception {
+        if(isMatrix(matrix)){
+            return  matrix[0][0] * matrix[1][1] * matrix[2][2] +
+                    matrix[0][1] * matrix[1][2] * matrix[2][0] +
+                    matrix[1][0] * matrix[2][1] * matrix[0][2] -
+                    matrix[2][0] * matrix[1][1] * matrix[0][2] -
+                    matrix[1][0] * matrix[0][1] * matrix[2][2] -
+                    matrix[0][0] * matrix[1][2] * matrix[2][1] ;
+        } else throw new Exception("Is not 3x3 matrix");
+    }
+
+    private static int deteNxN(int [][] matrix) throws Exception{
+        if(isMatrix(matrix)){
+            int d = 0;
+            for (int i = 0; i < matrix.length; i++) {
+
+            }
+            return 1;
+        } else throw new Exception("Is not a matrix");
+    }
+
+    private static boolean isMatrix(int [][] matrix){
+        Predicate<int[][]> isCorrect = a -> {
+            for (int i = 0; i < a.length; i++){
+                if(a.length != a[i].length)
+                    return false;
+            } return true;
+        };
+        return isCorrect.test(matrix);
+    }
+
+    private static boolean is2x2Matrix(int [][] matrix){
+        Predicate<int[][]> isCorrect = a -> a.length == 2 && a[0].length == 2 && a[1].length == 2;
+        return isCorrect.test(matrix);
+    }
+
 }
