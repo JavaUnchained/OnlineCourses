@@ -1,6 +1,7 @@
+import java.util.Arrays;
 import java.util.function.Predicate;
 
-public class Matrix {
+public class Determinant {
     public static void main(String[] args) throws Exception {
         int[][] matrix2x2 = {{2,3}, {1,1}};
         int[][] matrix3x3 = {{1, 2, 1}, {3, -1, -1}, {-2, 2, 3}};
@@ -15,13 +16,13 @@ public class Matrix {
     }
 
     //******************* Нахождение детерминантов матриц**************************//
-    private static int deter2x2(int[][] matrix) throws Exception {
+    public static int deter2x2(int[][] matrix) throws Exception {
         if(isMatrix(matrix)){
             return matrix[0][0] * matrix[1][1] - matrix[0][1] * matrix[1][0];
         }else throw new Exception("Is not 2x2 matrix");
     }
 
-    private static int deter3x3(int[][] matrix) throws Exception {
+    public static int deter3x3(int[][] matrix) throws Exception {
         if(isMatrix(matrix)){
             return  matrix[0][0] * matrix[1][1] * matrix[2][2] +
                     matrix[0][1] * matrix[1][2] * matrix[2][0] +
@@ -49,7 +50,7 @@ public class Matrix {
         } else throw new Exception("Is not a matrix");
     }
 
-    private static boolean isMatrix(int [][] matrix){
+    public static boolean isMatrix(int [][] matrix){
         Predicate<int[][]> isCorrect = a -> {
             for (int i = 0; i < a.length; i++){
                 if(a.length != a[i].length)
@@ -59,7 +60,7 @@ public class Matrix {
         return isCorrect.test(matrix);
     }
 
-    private static boolean is2x2Matrix(int [][] matrix){
+    public static boolean is2x2Matrix(int [][] matrix){
         Predicate<int[][]> isCorrect = a -> a.length == 2 && a[0].length == 2 && a[1].length == 2;
         return isCorrect.test(matrix);
     }
