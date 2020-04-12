@@ -8,9 +8,9 @@ public class Matrix {
         System.out.println(deter2x2( matrix2x2));
         System.out.println(deter3x3(matrix3x3));
 
-        System.out.println(is2x2Matrix(matrix2x2));
-        System.out.println(is2x2Matrix(matrix3x3));
-        System.out.println(is2x2Matrix(notMatrix));
+//        System.out.println(is2x2Matrix(matrix2x2));
+//        System.out.println(is2x2Matrix(matrix3x3));
+//        System.out.println(is2x2Matrix(notMatrix));
 //        System.out.println(deter2x2( notMatrix2x2));
     }
 
@@ -36,7 +36,14 @@ public class Matrix {
         if(isMatrix(matrix)){
             int d = 0;
             for (int i = 0; i < matrix.length; i++) {
-
+                int[][] subMatrix = new int[matrix.length-1][matrix.length-1];
+                for (int j = i + 1; j < matrix.length; j++) {
+//                    subMatrix[][]
+                    //TODO доделать универсальный детермининат нужно делать подмассив
+                    // и рекурсвно проверять не 2х2 ли он, если да то досчитывать и возвращать результат
+                    // и и так сделать N раз для матрицы NxN
+                }
+//                d = matrix[0][i] * deteNxN();
             }
             return 1;
         } else throw new Exception("Is not a matrix");
