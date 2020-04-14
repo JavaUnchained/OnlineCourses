@@ -3,6 +3,8 @@ import java.util.Collection;
 import java.util.List;
 import java.util.function.IntPredicate;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
 public class MapAndReduce {
@@ -21,6 +23,27 @@ public class MapAndReduce {
                 .flatMap(book -> book.getAuthor().stream())
                 .distinct()
                 .collect(Collectors.toList());
+
+        boolean result = LongStream
+                .rangeClosed(1, 100_000)
+                .anyMatch(val -> val == 100_000);
+
+        System.out.println(result);
+
+        boolean result1 = !IntStream
+                .generate(() -> 100)
+                .limit(101)
+                .allMatch(val -> val >= 100);
+
+        System.out.println(result1);
+
+        boolean result2 = IntStream
+                .iterate(0, n -> n + 1)
+                .limit(100)
+                .filter(n -> n % 2 != 0)
+                .noneMatch(n -> n % 2 == 0);
+
+        System.out.println(result2);
     }
     /*
     В этом примере map отрицает каждый предикат в потоке, а затем сводит все предикаты в один.
@@ -32,4 +55,34 @@ public class MapAndReduce {
                 .map(IntPredicate::negate)
                 .reduce(n -> true, IntPredicate::and);
     }
+
+    /*
+    Напишите метод, используя Stream API, чтобы проверить, является ли введенное число простым или нет .
+    Давайте согласимся, что входное значение всегда больше 1 (то есть 2, 3, 4, 5, ....).
+    Используйте предоставленный шаблон для вашего метода.
+
+    Простое число - это значение больше 1, которое не имеет положительных делителей,
+    кроме 1 и самого себя. Смотрите https://en.wikipedia.org/wiki/Prime_number1
+     */
+//    public static boolean isPrime(final long number) {
+//        // write your code here
+////        return Stream.of(number).allMatch(n -> number % n == 0 && n != number;
+//    }
+
+
+    /*
+    Create a stream that will detect bad words in a text according to a bad words list.
+     All words in the text are divided by whitespaces (always only one whitespace between two words).
+
+    After calling collect(Collectors.toList()) the stream must return the list of bad words which
+     were found in the text. The result should be dictionary ordered (in lexicographical order, i.e. sorted)
+     and bad words shouldn't repeat.
+
+    Important. You need return a prepared stream from the template method, not a list of bad words.
+    Pay attention to the method template. Do not change it!
+     */
+    public static Stream<String> createBadWordsDetectingStream(String text, List<String> badWords) {
+        return badWords.stream().filter(text::contains).distinct().sorted();
+    }
+
 }
