@@ -8,7 +8,7 @@ import java.io.ObjectOutput;
 public class Main {
 
 }
-
+// I'm forget what do this class
 class Cat implements Externalizable
 {
     public String name;
