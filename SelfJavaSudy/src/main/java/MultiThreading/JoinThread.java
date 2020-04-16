@@ -1,5 +1,7 @@
 package MultiThreading;
 
+// Здесь простып языком раскрыт смысл джойнов. Они просто заствляют
+// основной поток или любой другой, ждать выполнения друго потока
 public class JoinThread {
 
     public static void main(String[] args) {
