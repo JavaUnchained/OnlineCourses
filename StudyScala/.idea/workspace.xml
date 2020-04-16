@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="39bafeb2-5017-45b8-ad3a-610ea534bdce" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Worksheet" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ZiuGsAVgf4ROx5Tf04Y3bDwelo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/akka-http-REST-application-master" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Application.HelloScala">
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Example" />
+      <module name="StyduScala" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Functions" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Functions" />
+      <module name="StyduScala" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloScala" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloScala" />
+      <module name="StyduScala" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Operators" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Operators" />
+      <module name="StyduScala" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadConsole" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ReadConsole" />
+      <module name="StyduScala" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloScala" />
+        <item itemvalue="Application.Operators" />
+        <item itemvalue="Application.Example" />
+        <item itemvalue="Application.Functions" />
+        <item itemvalue="Application.ReadConsole" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="StyduScala" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="styduscala [file:/C:/Users/PC/Documents/1.IdeaProjects/StyduScala/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="StyduScala-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3170836004182" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="3419160366" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="1244562550" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39bafeb2-5017-45b8-ad3a-610ea534bdce" name="Default Changelist" comment="" />
+      <created>1585334142788</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585334142788</updated>
+      <workItem from="1585334148529" duration="11934000" />
+      <workItem from="1585482605231" duration="11038000" />
+      <workItem from="1585502067710" duration="2741000" />
+      <workItem from="1585654203237" duration="2085000" />
+      <workItem from="1585681779850" duration="2667000" />
+      <workItem from="1585836932922" duration="116000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="613" y="338" width="397" height="185" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1585334613941">
+      <screen x="0" y="0" width="1600" height="854" />
+    </state>
+    <state x="613" y="338" width="397" height="185" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.0.1600.854@0.0.1600.854" timestamp="1585334613941" />
+    <state x="480" y="164" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585501898745">
+      <screen x="0" y="0" width="1600" height="854" />
+    </state>
+    <state x="480" y="164" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1600.0.1600.854/0.0.1600.854@0.0.1600.854" timestamp="1585501898745" />
+    <state x="580" y="182" key="FileChooserDialogImpl" timestamp="1585668894227">
+      <screen x="0" y="0" width="1600" height="854" />
+    </state>
+    <state x="580" y="182" key="FileChooserDialogImpl/0.0.1600.854@0.0.1600.854" timestamp="1585668894227" />
+    <state width="1557" height="109" key="GridCell.Tab.0.bottom/0.0.1600.854@0.0.1600.854" timestamp="1585355281342" />
+    <state width="1557" height="109" key="GridCell.Tab.0.center/0.0.1600.854@0.0.1600.854" timestamp="1585355281341" />
+    <state width="1557" height="109" key="GridCell.Tab.0.left/0.0.1600.854@0.0.1600.854" timestamp="1585355281341" />
+    <state width="1557" height="109" key="GridCell.Tab.0.right/0.0.1600.854@0.0.1600.854" timestamp="1585355281341" />
+    <state width="1557" height="109" key="GridCell.Tab.1.bottom" timestamp="1585355281342">
+      <screen x="0" y="0" width="1600" height="854" />
+    </state>
+    <state width="1557" height="109" key="GridCell.Tab.1.bottom/0.0.1600.854@0.0.1600.854" timestamp="1585355281342" />
+    <state width="1557" height="109" key="GridCell.Tab.1.center" timestamp="1585355281342">
+      <screen x="0" y="0" width="1600" height="854" />
+    </state>
+    <state width="1557" height="109" key="GridCell.Tab.1.center/0.0.1600.854@0.0.1600.854" timestamp="1585355281342" />
+    <state width="1557" height="109" key="GridCell.Tab.1.left" timestamp="1585355281342">
+      <screen x="0" y="0" width="1600" height="854" />
+    </state>
+    <state width="1557" height="109" key="GridCell.Tab.1.left/0.0.1600.854@0.0.1600.854" timestamp="1585355281342" />
+    <state width="1557" height="109" key="GridCell.Tab.1.right" timestamp="1585355281342">
+      <screen x="0" y="0" width="1600" height="854" />
+    </state>
+    <state width="1557" height="109" key="GridCell.Tab.1.right/0.0.1600.854@0.0.1600.854" timestamp="1585355281342" />
+    <state x="301" y="70" key="SettingsEditor" timestamp="1585334439675">
+      <screen x="0" y="0" width="1600" height="854" />
+    </state>
+    <state x="301" y="70" key="SettingsEditor/0.0.1600.854@0.0.1600.854" timestamp="1585334439675" />
+    <state x="476" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1585502069082">
+      <screen x="0" y="0" width="1600" height="854" />
+    </state>
+    <state x="476" y="252" key="com.intellij.ide.util.TipDialog/1600.0.1600.854/0.0.1600.854@0.0.1600.854" timestamp="1585502069082" />
+    <state x="182" y="151" key="new project wizard" timestamp="1585513059864">
+      <screen x="0" y="0" width="1600" height="854" />
+    </state>
+    <state x="182" y="151" key="new project wizard/1600.0.1600.854/0.0.1600.854@0.0.1600.854" timestamp="1585513059864" />
+    <state x="456" y="194" key="run.anything.popup" timestamp="1585485246648">
+      <screen x="0" y="0" width="1600" height="854" />
+    </state>
+    <state x="456" y="194" key="run.anything.popup/1600.0.1600.854/0.0.1600.854@0.0.1600.854" timestamp="1585485246648" />
+    <state x="463" y="175" width="672" height="678" key="search.everywhere.popup" timestamp="1585352049696">
+      <screen x="0" y="0" width="1600" height="854" />
+    </state>
+    <state x="463" y="175" width="672" height="678" key="search.everywhere.popup/0.0.1600.854@0.0.1600.854" timestamp="1585352049696" />
+  </component>
+  <component name="WorksheetDefaultProjectSettings">
+    <option name="compilerProfileName" value="Default" />
+    <option name="moduleName" value="StyduScala" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/HelloScala.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
