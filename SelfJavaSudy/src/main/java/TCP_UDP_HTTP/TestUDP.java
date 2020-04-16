@@ -13,7 +13,7 @@ import static org.junit.Assert.assertFalse;
 
 public class TestUDP {
         EchoClient client;
-
+// Needed to add junit maven dependencies
         @Before
         public void setup() throws SocketException, UnknownHostException {
             new Thread(new UDPClass()).start();
