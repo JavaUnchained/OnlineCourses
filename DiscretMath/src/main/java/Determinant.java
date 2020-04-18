@@ -40,9 +40,6 @@ public class Determinant {
                 int[][] subMatrix = new int[matrix.length-1][matrix.length-1];
                 for (int j = i + 1; j < matrix.length; j++) {
 //                    subMatrix[][]
-                    //TODO доделать универсальный детермининат нужно делать подмассив
-                    // и рекурсвно проверять не 2х2 ли он, если да то досчитывать и возвращать результат
-                    // и и так сделать N раз для матрицы NxN
                 }
 //                d = matrix[0][i] * deteNxN();
             }
