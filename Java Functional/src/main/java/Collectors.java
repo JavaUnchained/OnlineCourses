@@ -1,3 +1,5 @@
+import org.omg.CORBA.INTERNAL;
+
 public class Collectors {
     /*
     producing collections;
@@ -85,5 +87,12 @@ public class Collectors {
 
     Map<Account.State, Long> sumByStates = accounts.stream().collect(summingByStates);
      */
+
+
+
     }
+
+//    public static Collectors collectorSquareNumbers(){
+//        return java.util.stream.Collectors.reducing(1, x->x*x, (x,y) -> x*y);
+//    }
 }
