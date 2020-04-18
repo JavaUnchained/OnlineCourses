@@ -26,6 +26,29 @@ public class Collectors {
 
 //        stream().collect(Collectors.toCollection(HashSet::new));
 
+        // группировка коллекций
+        // partitioning - разбиение коллекции по предикату
+
+//        Map<Boolean, List<Account>> partByBalance = accounts.stream()
+//                .collect(Collectors.partitioningBy(a -> a.getBalance() >= 10000));
+
+        // Примерный результат
+//        {
+//            false=[Account{balance=3333, number='530012'}, Account{balance=0, number='681891'}],
+//            true=[Account{balance=15000, number='771843'}]
+//        }
+
+        // Завели enum с 3-я состояниеми
+//        Map<Account.State, List<Account>> groupingByState = accounts.stream()
+//                .collect(Collectors.groupingBy(Account::getState));
+
+        // результат
+//        {
+//            REMOVED=[Account{balance=0, number='681891', state='REMOVED'}],
+//            ACTIVE=[Account{balance=3333, number='530012', state='ACTIVE'}],
+//            BLOCKED=[Account{balance=15000, number='771843', state='BLOCKED'}]
+//        }
+
 
     }
 }
