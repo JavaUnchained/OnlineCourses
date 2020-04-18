@@ -85,4 +85,10 @@ public class MapAndReduce {
         return badWords.stream().filter(text::contains).distinct().sorted();
     }
 
+
+    public static long factorial(long n) {
+        return LongStream.iterate(1, x -> x + 1)
+                .limit(n)
+                .reduce(1, (acc, elem) -> acc * elem);
+    }
 }
