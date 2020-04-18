@@ -91,4 +91,9 @@ public class MapAndReduce {
                 .limit(n)
                 .reduce(1, (acc, elem) -> acc * elem);
     }
+
+
+    public static long sumOfOddNumbersInRange(long start, long end) {
+        return LongStream.rangeClosed(start,end).filter(x -> x % 2 != 0).sum();
+    }
 }
