@@ -79,6 +79,11 @@ public class Collectors {
 //                Редуктор  - это оператор для объединения пары значений в одно значение (обязательно !!!)
 
 
+    /*
+    Collector<Account, ?, Map<Account.State, Long>> summingByStates =
+        groupingBy(Account::getState, summingLong(Account::getBalance));
 
+    Map<Account.State, Long> sumByStates = accounts.stream().collect(summingByStates);
+     */
     }
 }
