@@ -43,4 +43,8 @@ public class Cyrring {
 
 
     }
+
+    private static void someCyrring(){
+//        Function<Integer, Function<Integer,Integer>> xyz = x -> y -> z -> x + y * y + z * z * z;
+    }
 }
