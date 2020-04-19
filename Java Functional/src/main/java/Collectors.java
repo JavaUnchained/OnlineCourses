@@ -1,4 +1,6 @@
-import org.omg.CORBA.INTERNAL;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
 
 public class Collectors {
     /*
@@ -95,4 +97,23 @@ public class Collectors {
 //    public static Collectors collectorSquareNumbers(){
 //        return java.util.stream.Collectors.reducing(1, x->x*x, (x,y) -> x*y);
 //    }
+
+    public static Map<Boolean, List<String>> isPolindrom(){
+        String[] words = {"aaaa", "aaa", "aa"};
+        Map<Boolean, List<String>> palindromeOrNoMap =
+                Arrays.stream(words).collect(java.util.stream.Collectors.groupingBy(
+                        (x -> x.equals(new StringBuffer(x).reverse().toString())),
+                        java.util.stream.Collectors.toList()
+                ));
+
+        return palindromeOrNoMap;
+    }
+
+//    public static Map<Boolean, List<String>> isPolindrom2(){
+//        String[] words = {"aaaa", "aaa", "aa"};
+//        Map<Boolean, List<String>> palindromeOrNoMap =
+////                Arrays.stream(words).reduce((x -> x.equals(new StringBuffer(x).reverse().toString())), java.util.stream.Collectors.toList());
+//        return palindromeOrNoMap;
+//    }
+
 }
