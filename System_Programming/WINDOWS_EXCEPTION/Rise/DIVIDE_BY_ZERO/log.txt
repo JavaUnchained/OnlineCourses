@@ -1,0 +1,13 @@
+ [17.10.2019 14:12:33]> Question: Take some infromation with GetExcaptionInformation and generetion exception with rise method for divide by zero.
+ [17.10.2019 14:12:33]> Launch this programm. 
+ [17.10.2019 14:12:33]> In main. 
+ [17.10.2019 14:12:33]> In try. 
+ [17.10.2019 14:12:33]> Generation exception with Rise  method.
+ [17.10.2019 14:12:33]> Rise exception settings: EXCEPTION_INT_DIVIDE_BY_ZERO, 0, 0, NULL 
+ [17.10.2019 14:12:33]> In xfilter with seeting EXCEPTION_POINTERS* GetExceptionInformation. 
+ [17.10.2019 14:12:33]> Compare xr value with any exception in swith-case construction. 
+ [17.10.2019 14:12:33]> Case EXEPTION_INT_DIVIDE_BY_ZERO. 
+ [17.10.2019 14:12:33]> Return exception execute handler. 
+ [17.10.2019 14:12:33]> In except. 
+ [17.10.2019 14:12:33]> End the programm. 
+ [17.10.2019 14:12:33]> Closed the log file. 

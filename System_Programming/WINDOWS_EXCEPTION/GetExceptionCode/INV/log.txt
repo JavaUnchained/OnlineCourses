@@ -1,0 +1,11 @@
+ [17.10.2019 13:42:50]> Question: using GetExceptionCode used in filter.
+ [17.10.2019 13:42:50]> Launch this programm. 
+ [17.10.2019 13:42:50]> In main. 
+ [17.10.2019 13:42:50]> In try. 
+ [17.10.2019 13:42:50]> Rised invalid operation. 
+ [17.10.2019 13:42:50]> Rise exception settings is: EXCEPTION_FLT_INVALID_OPERATION, 0, 0, NULL. 
+ [17.10.2019 13:42:50]> In except. 
+ [17.10.2019 13:42:50]> GetExceptionCode() == EXEPTION_FLT_INVALID_OPERATION. 
+ [17.10.2019 13:42:50]> Exception execute handalling. 
+ [17.10.2019 13:42:50]> End the programm. 
+ [17.10.2019 13:42:50]> Closed the log file. 

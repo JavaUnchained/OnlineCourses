@@ -1,0 +1,10 @@
+ [14.10.2019 0:58:22]> WinAPI question with invalid operation.
+ [14.10.2019 0:58:22]> Launch this programm. 
+ [14.10.2019 0:58:22]> In main. 
+ [14.10.2019 0:58:22]> In try. 
+ [14.10.2019 0:58:22]> Generation exception with Rise  method.
+ [14.10.2019 0:58:22]> Rise exception settings is EXCEPTION_FLT_INVALID_OPERATION, 0, 0, NULL 
+ [14.10.2019 0:58:22]> In except. 
+ [14.10.2019 0:58:22]> Exception catched. 
+ [14.10.2019 0:58:22]> End the programm. 
+ [14.10.2019 0:58:22]> Closed the log file. 

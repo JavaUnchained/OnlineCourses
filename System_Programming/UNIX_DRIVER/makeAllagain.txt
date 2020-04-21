@@ -1,0 +1,5 @@
+make -C/lib/modules/5.0.0-37-generic/build M=/home/kovalkov/Desktop/UNIX_DRIVER modules
+make[1]: Entering directory '/usr/src/linux-headers-5.0.0-37-generic'
+  Building modules, stage 2.
+  MODPOST 1 modules
+make[1]: Leaving directory '/usr/src/linux-headers-5.0.0-37-generic'

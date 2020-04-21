@@ -1,0 +1,12 @@
+ [17.10.2019 13:45:45]> WinAPI question with divide by zero exception.
+ [17.10.2019 13:45:45]> Launch this programm. 
+ [17.10.2019 13:45:45]> In main. 
+ [17.10.2019 13:45:45]> Initializing: a = 1, b = 0. 
+ [17.10.2019 13:45:45]> In try. 
+ [17.10.2019 13:45:45]> Generation exception with Rise  method.
+ [17.10.2019 13:45:45]> Divide a by b
+ [17.10.2019 13:45:45]> In except. 
+ [17.10.2019 13:45:45]> GetExceptionCode() == EXCEPTION_INT_DIVIDE_BY_ZERO. 
+ [17.10.2019 13:45:45]> Exception execute handalling. 
+ [17.10.2019 13:45:45]> End the programm. 
+ [17.10.2019 13:45:45]> Closed the log file. 

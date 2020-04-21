@@ -1,0 +1,12 @@
+ [16.10.2019 19:33:17]> Question: using AbnormalTermination in finally for look at correct or not exiting programm .
+ [16.10.2019 19:33:17]> Launch this programm. 
+ [16.10.2019 19:33:17]> In main. 
+ [16.10.2019 19:33:17]> In primary try. 
+ [16.10.2019 19:33:17]> In second try. 
+ [16.10.2019 19:33:17]> Rising flt invalid operation exception with RiseException methods. 
+ [16.10.2019 19:33:17]> RiseException settings is EXCEPTION_FLT_INVALID_OPERATION, 0, 0, NULL. 
+ [16.10.2019 19:33:17]> In finally block. 
+ [16.10.2019 19:33:17]> Compare AmbormalTermination value. 
+ [16.10.2019 19:33:17]> AbnormalTermination get false. Programm ending unnormal. 
+ [16.10.2019 19:33:17]> Ending the programm. 
+ [16.10.2019 19:33:17]> Closed the log file. 

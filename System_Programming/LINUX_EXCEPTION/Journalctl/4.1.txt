@@ -1,0 +1,2 @@
+Nov 26  15:22:43 PC-Dexp-Atlas task3: Arythmetic exception occured! Code: 0x8
+Nov 26 15:43:53  PC-Dexp-Atlas task3: Memory exception occured! Code: 0xb

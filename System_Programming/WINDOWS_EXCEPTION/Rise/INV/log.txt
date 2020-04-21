@@ -1,0 +1,13 @@
+ [14.10.2019 20:32:22]> Question: Take some infromation with GetExcaptionInformation and generetion exception with rise method.
+ [14.10.2019 20:32:22]> Launch this programm. 
+ [14.10.2019 20:32:22]> In main. 
+ [14.10.2019 20:32:22]> In try. 
+ [14.10.2019 20:32:22]> Generation exception with Rise  method.
+ [14.10.2019 20:32:22]> Rise exception settings is EXCEPTION_FLT_INVALID_OPERATION, 0, 0, NULL 
+ [14.10.2019 20:32:22]> In xfilter with seeting EXCEPTION_POINTERS* GetExceptionInformation. 
+ [14.10.2019 20:32:22]> Compare xr value with any exception in swith-case construction. 
+ [14.10.2019 20:32:22]> Case EXEPTION_FLT_INVALID_OPERATION . 
+ [14.10.2019 20:32:22]> Return exception handling. 
+ [14.10.2019 20:32:22]> In except. 
+ [14.10.2019 20:32:22]> End the programm. 
+ [14.10.2019 20:32:22]> Closed the log file. 

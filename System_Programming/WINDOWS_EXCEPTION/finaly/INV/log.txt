@@ -1,0 +1,10 @@
+ [16.10.2019 19:35:59]> Question: using __finally in try-except construction .
+ [16.10.2019 19:35:59]> Launch this programm. 
+ [16.10.2019 19:35:59]> In main. 
+ [16.10.2019 19:35:59]> In try. 
+ [16.10.2019 19:35:59]> Rising flt invalid operation exception with RiseException methods. 
+ [16.10.2019 19:35:59]> RiseException settings is EXCEPTION_FLT_INVALID_OPERATION, 0, 0, NULL. 
+ [16.10.2019 19:35:59]> In exception block. 
+ [16.10.2019 19:35:59]> Exception exceution handling. 
+ [16.10.2019 19:35:59]> End the programm. 
+ [16.10.2019 19:35:59]> Closed the log file. 

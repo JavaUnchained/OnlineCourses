@@ -1,0 +1,13 @@
+ [23.10.2019 14:4:26]> Question: using goto operator .
+ [23.10.2019 14:4:26]> Launch this programm. 
+ [23.10.2019 14:4:26]> In main. 
+ [23.10.2019 14:4:26]> In try. 
+ [23.10.2019 14:4:26]> Rised invalid operation. 
+ [23.10.2019 14:4:26]> Rise exception settings is: EXCEPTION_FLT_INVALID_OPERATION, 0, 0, NULL. 
+ [23.10.2019 14:4:26]> In except. 
+ [23.10.2019 14:4:26]> Invalid operation catched. 
+ [23.10.2019 14:4:26]> Use goto from label. 
+ [23.10.2019 14:4:26]> There was a stack rollout. 
+ [23.10.2019 14:4:26]> About goto label. 
+ [23.10.2019 14:4:26]> End the programm. 
+ [23.10.2019 14:4:26]> Closed the log file. 

@@ -1,0 +1,18 @@
+ноя 19 00:52:49 andrey-pc systemd[1]: Started Process Core Dump (PID 9595/UID 0).
+ноя 19 00:52:49 andrey-pc audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 
+ses=4294967295 subj==unconfined msg='unit=systemd-coredump@34-9595->
+ноя 19 00:52:49 andrey-pc kernel: audit: type=1130 audit(1574113969.846:184): pid=1 uid=0 auid=4294967295 
+ses=4294967295 subj==unconfined msg='un>
+ноя 19 00:52:50 andrey-pc systemd-coredump[9596]: Process 9594 (1.SignalArytmet) of user 1000 dumped core.
+                                                     
+    Stack trace of thread 9594:
+    #0  0x0000555d6a7a414f n/a (/home/pc/Документы/vscocde/LinuxException/1.SignalArytmeticExcep>
+    #1  0x0000555d6a7a417d n/a (/home/pc/Документы/vscocde/LinuxException/1.SignalArytmeticExcep>
+    #2  0x00007f63f1764153 __libc_start_main (libc.so.6)
+    #3  0x0000555d6a7a406e n/a (/home/pc/Документы/vscocde/LinuxException/1.SignalArytmeticExcep>
+ноя 19 00:52:50 andrey-pc audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined 
+msg='unit=systemd-coredump@34-9595-0>
+ноя 19 00:52:50 andrey-pc kernel: audit: type=1131 audit(1574113970.050:185): pid=1 uid=0 auid=4294967295 
+ses=4294967295 subj==unconfined msg='un>
+ноя 19 00:52:50 andrey-pc systemd[1]: systemd-coredump@34-9595-0.service: Succeeded.
+lines 4294-4309/4309 (END)

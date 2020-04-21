@@ -1,0 +1,14 @@
+ [14.10.2019 21:52:7]> Question: handling nested exceptions .
+ [14.10.2019 21:52:7]> Launch this programm. 
+ [14.10.2019 21:52:7]> In main. 
+ [14.10.2019 21:52:7]> In primary try. 
+ [14.10.2019 21:52:7]> In second try . 
+ [14.10.2019 21:52:7]> Rised flt invalid operation exception. Settings is EXCEPTION_FLT_INVALID_OPERATION, 0, 0, NULL 
+ [14.10.2019 21:52:7]> Second except have trinity operator with GetExceptionCode. 
+ [14.10.2019 21:52:7]> GetExceptionCode() != EXCEPTION_ARRAY_BOUNDS_EXCEEDED. 
+ [14.10.2019 21:52:7]> EXCEPTION_CONTINUE_SEARCH. 
+ [14.10.2019 21:52:7]> In primary except . 
+ [14.10.2019 21:52:7]> GetExceptionCode() == EXCEPTION_FLT_INVALID_OPERATION . 
+ [14.10.2019 21:52:7]> Exception invalid operation catched. 
+ [14.10.2019 21:52:7]> End the programm. 
+ [14.10.2019 21:52:7]> Closed the log file. 

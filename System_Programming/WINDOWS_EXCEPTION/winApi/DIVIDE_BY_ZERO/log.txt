@@ -1,0 +1,11 @@
+ [17.10.2019 13:16:32]> WinAPI question with divide by zero exception.
+ [17.10.2019 13:16:32]> Launch this programm. 
+ [17.10.2019 13:16:32]> In main. 
+ [17.10.2019 13:16:32]> Initializing: a = 1, b = 0. 
+ [17.10.2019 13:16:32]> In try. 
+ [17.10.2019 13:16:32]> Generation exception with Rise  method.
+ [17.10.2019 13:16:32]> Divide a by b
+ [17.10.2019 13:16:32]> In except. 
+ [17.10.2019 13:16:32]> Excecution handling. 
+ [17.10.2019 13:16:32]> End the programm. 
+ [17.10.2019 13:16:32]> Closed the log file. 

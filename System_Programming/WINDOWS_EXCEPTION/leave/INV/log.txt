@@ -1,0 +1,42 @@
+ [16.10.2019 15:28:51]> Question: using leave operator .
+ [16.10.2019 15:28:51]> Launch this programm. 
+ [16.10.2019 15:28:51]> In main. 
+ [16.10.2019 15:28:51]> Initial a = 10, b = 100, c = 0. 
+ [16.10.2019 15:28:51]> In primary try. 
+ [16.10.2019 15:28:51]> In second try. 
+ [16.10.2019 15:28:51]> Go in while loop. 
+ [16.10.2019 15:28:51]> In else construction. 
+ [16.10.2019 15:28:51]> Divison b by c. 
+ [16.10.2019 15:28:51]> Printing a. 
+ [16.10.2019 15:28:51]> In else construction. 
+ [16.10.2019 15:28:51]> Divison b by c. 
+ [16.10.2019 15:28:51]> Printing a. 
+ [16.10.2019 15:28:51]> In else construction. 
+ [16.10.2019 15:28:51]> Divison b by c. 
+ [16.10.2019 15:28:51]> Printing a. 
+ [16.10.2019 15:28:51]> In else construction. 
+ [16.10.2019 15:28:51]> Divison b by c. 
+ [16.10.2019 15:28:51]> Printing a. 
+ [16.10.2019 15:28:51]> In else construction. 
+ [16.10.2019 15:28:51]> Divison b by c. 
+ [16.10.2019 15:28:51]> Printing a. 
+ [16.10.2019 15:28:51]> In else construction. 
+ [16.10.2019 15:28:51]> Divison b by c. 
+ [16.10.2019 15:28:51]> Printing a. 
+ [16.10.2019 15:28:51]> In else construction. 
+ [16.10.2019 15:28:51]> Divison b by c. 
+ [16.10.2019 15:28:51]> Printing a. 
+ [16.10.2019 15:28:51]> In else construction. 
+ [16.10.2019 15:28:51]> Divison b by c. 
+ [16.10.2019 15:28:51]> Printing a. 
+ [16.10.2019 15:28:51]> In if construction. 
+ [16.10.2019 15:28:51]> a == 1. 
+ [16.10.2019 15:28:51]> Out with __leave. 
+ [16.10.2019 15:28:51]> In primary try. 
+ [16.10.2019 15:28:51]> Rising flt invalid operation exception with RiseException methods. 
+ [16.10.2019 15:28:51]> RiseException settings is EXCEPTION_FLT_INVALID_OPERATION, 0, 0, NULL. 
+ [16.10.2019 15:28:51]> In primary except. 
+ [16.10.2019 15:28:51]> Filter: GetExceptionCode() == EXCEPTION_FLT_INVALID_OPERATION 
+ [16.10.2019 15:28:51]> Exception execute handling. 
+ [16.10.2019 15:28:51]> End the programm. 
+ [16.10.2019 15:28:51]> Closed the log file. 

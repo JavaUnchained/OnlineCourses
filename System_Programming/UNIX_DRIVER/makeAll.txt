@@ -1,0 +1,45 @@
+make -C/lib/modules/5.0.0-37-generic/build M=/home/kovalkov/Desktop/UNIX_DRIVER modules
+make[1]: Entering directory '/usr/src/linux-headers-5.0.0-37-generic'
+  CC [M]  /home/kovalkov/Desktop/UNIX_DRIVER/DriverUNIX.o
+In file included from ./include/linux/printk.h:7:0,
+                 from ./include/linux/kernel.h:14,
+                 from ./include/linux/list.h:9,
+                 from ./include/linux/module.h:9,
+                 from /home/kovalkov/Desktop/UNIX_DRIVER/DriverUNIX.c:2:
+/home/kovalkov/Desktop/UNIX_DRIVER/DriverUNIX.c: In function ‘device_read’:
+./include/linux/kern_levels.h:5:18: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+ #define KERN_SOH "\001"  /* ASCII Start Of Header */
+                  ^
+./include/linux/kern_levels.h:9:20: note: in expansion of macro ‘KERN_SOH’
+ #define KERN_ALERT KERN_SOH "1" /* action must be taken immediately */
+                    ^~~~~~~~
+/home/kovalkov/Desktop/UNIX_DRIVER/DriverUNIX.c:82:9: note: in expansion of macro ‘KERN_ALERT’
+  printk(KERN_ALERT "Try to read character device /dev/%d c %d 0'.\n", DEVICE_NAME, Major);
+         ^~~~~~~~~~
+/home/kovalkov/Desktop/UNIX_DRIVER/DriverUNIX.c:82:56: note: format string is defined here
+  printk(KERN_ALERT "Try to read character device /dev/%d c %d 0'.\n", DEVICE_NAME, Major);
+                                                       ~^
+                                                       %s
+In file included from ./include/linux/printk.h:7:0,
+                 from ./include/linux/kernel.h:14,
+                 from ./include/linux/list.h:9,
+                 from ./include/linux/module.h:9,
+                 from /home/kovalkov/Desktop/UNIX_DRIVER/DriverUNIX.c:2:
+./include/linux/kern_levels.h:5:18: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘size_t {aka long unsigned int}’ [-Wformat=]
+ #define KERN_SOH "\001"  /* ASCII Start Of Header */
+                  ^
+./include/linux/kern_levels.h:9:20: note: in expansion of macro ‘KERN_SOH’
+ #define KERN_ALERT KERN_SOH "1" /* action must be taken immediately */
+                    ^~~~~~~~
+/home/kovalkov/Desktop/UNIX_DRIVER/DriverUNIX.c:91:9: note: in expansion of macro ‘KERN_ALERT’
+  printk(KERN_ALERT "Try to read character device /dev/%d c %d 0'.\n", bytes_read, length);
+         ^~~~~~~~~~
+/home/kovalkov/Desktop/UNIX_DRIVER/DriverUNIX.c:91:61: note: format string is defined here
+  printk(KERN_ALERT "Try to read character device /dev/%d c %d 0'.\n", bytes_read, length);
+                                                            ~^
+                                                            %ld
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/kovalkov/Desktop/UNIX_DRIVER/DriverUNIX.mod.o
+  LD [M]  /home/kovalkov/Desktop/UNIX_DRIVER/DriverUNIX.ko
+make[1]: Leaving directory '/usr/src/linux-headers-5.0.0-37-generic'

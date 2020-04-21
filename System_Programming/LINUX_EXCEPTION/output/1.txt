@@ -1,0 +1,3 @@
+pc@andrey-pc ~/Д/v/LinuxException> ./1.SignalArytmeticException 
+Start programm (Generation ArythmeticException
+fish: './1.SignalArytmeticException' terminated by signal SIGFPE (Floating point exception)

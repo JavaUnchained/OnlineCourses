@@ -1,0 +1,11 @@
+ [16.10.2019 20:33:54]> Question: using UnhandleExceptionFilter and SetUnhandleExceptionFilter .
+ [16.10.2019 20:33:54]> Launch this programm. 
+ [16.10.2019 20:33:54]> In main. 
+ [16.10.2019 20:33:54]> Using SetUnhandledExceptionFilter with setting funcForSet. 
+ [16.10.2019 20:33:54]> Invalid operation checked. 
+ [16.10.2019 20:33:54]> Rising float invalid operation exception. 
+ [16.10.2019 20:33:54]> In funcForSet. 
+ [16.10.2019 20:33:54]> Incrementing a value. 
+ [16.10.2019 20:33:54]> Unhandled exception occured. 
+ [16.10.2019 20:33:54]> End the programm. 
+ [16.10.2019 20:33:54]> Closed the log file. 

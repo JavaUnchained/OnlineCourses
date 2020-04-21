@@ -1,0 +1,17 @@
+ноя 19 01:00:46 andrey-pc systemd[1]: Started Process Core Dump (PID 9822/UID 0).
+ноя 19 01:00:46 andrey-pc kernel: audit: type=1130 audit(1574114446.050:193): pid=1 
+uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='un>
+ноя 19 01:00:46 andrey-pc audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 
+subj==unconfined msg='unit=systemd-coredump@37-9822->
+ноя 19 01:00:46 andrey-pc systemd-coredump[9823]: Process 9821 (2.HardWareExcep) of user 1000 dumped core.
+                                                     
+     Stack trace of thread 9821:
+     #0  0x00005622abcc41b0 n/a (/home/pc/Документы/vscocde/LinuxException/2.HardWareException)
+     #1  0x00005622abcc41de n/a (/home/pc/Документы/vscocde/LinuxException/2.HardWareException)
+    #2  0x00007f0c5b1fe153 __libc_start_main (libc.so.6)
+     #3  0x00005622abcc409e n/a (/home/pc/Документы/vscocde/LinuxException/2.HardWareException)
+ноя 19 01:00:46 andrey-pc audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 
+subj==unconfined msg='unit=systemd-coredump@37-9822-0>
+ноя 19 01:00:46 andrey-pc kernel: audit: type=1131 audit(1574114446.256:194): pid=1 uid=0 
+auid=4294967295 ses=4294967295 subj==unconfined msg='un>
+ноя 19 01:00:46 andrey-pc systemd[1]: systemd-coredump@37-9822-0.service: Succeeded.

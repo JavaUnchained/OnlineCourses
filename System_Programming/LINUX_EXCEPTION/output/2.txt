@@ -1,0 +1,3 @@
+pc@andrey-pc ~/Д/v/LinuxException> ./2.HardWareException 
+Start programm (Generation hardware exception like Misaligned address error
+fish: './2.HardWareException' terminated by signal SIGBUS (Misaligned address error)

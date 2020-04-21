@@ -1,0 +1,15 @@
+ [17.10.2019 13:58:9]> Start logfile. 
+ [17.10.2019 13:58:9]> Question: creating own filter-function for invalid operation.
+ [17.10.2019 13:58:9]> Launch this programm. 
+ [17.10.2019 13:58:9]> In main. 
+ [17.10.2019 13:58:9]> Initializing: a = 1, b = 0. 
+ [17.10.2019 13:58:9]> In try. 
+ [17.10.2019 13:58:9]> Generation exception with Rise  method.
+ [17.10.2019 13:58:9]> Divide a by b
+ [17.10.2019 13:58:9]> In filter function. 
+ [17.10.2019 13:58:9]> Start if-else contruction. 
+ [17.10.2019 13:58:9]>  exCode == EXCEPTION_INT_DIVIDE_BY_ZERO 
+ [17.10.2019 13:58:9]> Retruning exception execution handaling expression
+ [17.10.2019 13:58:9]> Filter in except catched divide by zero exception. 
+ [17.10.2019 13:58:9]> End the programm. 
+ [17.10.2019 13:58:9]> Closed the log file. 

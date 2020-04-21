@@ -1,0 +1,7 @@
+[Running] cd "/home/kovalkov/Desktop/UNIX_DRIVER/" && gcc DriverMain.c -o DriverMain && "/home/kovalkov/Desktop/UNIX_DRIVER/"DriverMain
+We work with character device driver
+Character driver open
+Character driver read 34 bytes
+I already told you 1 times HELLO!
+
+Character driver close

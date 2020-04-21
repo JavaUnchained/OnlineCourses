@@ -1,0 +1,16 @@
+"Zero.exe" (Win32). Загружено "C:\Users\PC\source\repos\Lab_1\4.Rise\Zero\x64\Debug\Zero.exe". Символы загружены.
+"Zero.exe" (Win32). Загружено "C:\Windows\System32\ntdll.dll". Символы загружены.
+"Zero.exe" (Win32). Загружено "C:\Windows\System32\kernel32.dll". Символы загружены.
+"Zero.exe" (Win32). Загружено "C:\Windows\System32\KernelBase.dll". Символы загружены.
+"Zero.exe" (Win32). Загружено "C:\Windows\System32\msvcp140d.dll". Символы загружены.
+"Zero.exe" (Win32). Загружено "C:\Windows\System32\vcruntime140d.dll". Символы загружены.
+"Zero.exe" (Win32). Загружено "C:\Windows\System32\vcruntime140_1d.dll". Символы загружены.
+"Zero.exe" (Win32). Загружено "C:\Windows\System32\ucrtbased.dll". Символы загружены.
+Поток 0x3a50 завершился с кодом 0 (0x0).
+Вызвано исключение по адресу 0x00007FF8E842A388 (KernelBase.dll) в Zero.exe: 0xC0000094: Integer division by zero.
+"Zero.exe" (Win32). Загружено "C:\Windows\System32\kernel.appcore.dll". Символы загружены.
+"Zero.exe" (Win32). Загружено "C:\Windows\System32\msvcrt.dll". Символы загружены.
+"Zero.exe" (Win32). Загружено "C:\Windows\System32\rpcrt4.dll". Символы загружены.
+Поток 0x2340 завершился с кодом 0 (0x0).
+Поток 0x2080 завершился с кодом 0 (0x0).
+Программа "[9980] Zero.exe" завершилась с кодом 0 (0x0).

@@ -1,0 +1,26 @@
+ноя 19 01:00:46 andrey-pc systemd[1]: Started Process Core Dump (PID 9822/UID 0).
+ноя 19 01:00:46 andrey-pc kernel: audit: type=1130 audit(1574114446.050:193): 
+pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='un>
+ноя 19 01:00:46 andrey-pc audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 
+ses=4294967295 subj==unconfined msg='unit=systemd-coredump@37-9822->
+ноя 19 01:00:46 andrey-pc systemd-coredump[9823]: Process 9821 (2.HardWareExcep) of user 1000 dumped core.
+       Stack trace of thread 9821:
+        #0  0x00005622abcc41b0 n/a (/home/pc/Документы/vscocde/LinuxException/2.HardWareException)
+        #1  0x00005622abcc41de n/a (/home/pc/Документы/vscocde/LinuxException/2.HardWareException)
+        #2  0x00007f0c5b1fe153 __libc_start_main (libc.so.6)
+        #3  0x00005622abcc409e n/a (/home/pc/Документы/vscocde/LinuxException/2.HardWareException)
+ноя 19 01:00:46 andrey-pc audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 
+subj==unconfined msg='unit=systemd-coredump@37-9822-0>
+ноя 19 01:00:46 andrey-pc kernel: audit: type=1131 audit(1574114446.256:194): pid=1 uid=0 
+auid=4294967295 ses=4294967295 subj==unconfined msg='un>
+ноя 19 01:00:46 andrey-pc systemd[1]: systemd-coredump@37-9822-0.service: Succeeded.
+ноя 19 01:01:01 andrey-pc CROND[9844]: (root) CMD (run-parts /etc/cron.hourly)
+ноя 19 01:01:01 andrey-pc anacron[9851]: Anacron started on 2019-11-19
+ноя 19 01:01:01 andrey-pc anacron[9851]: Normal exit (0 jobs run)
+ноя 19 01:03:01 andrey-pc ExceptionHandling[9911]: Arythmetic exception occured! Code: 0x8
+ноя 19 01:04:30 andrey-pc ExceptionHadnling[9954]: Bus exception occured! Code: 0x7
+ноя 19 01:05:52 andrey-pc RiseException[10004]: Arythmetic exception occured! Code: 0x8
+ноя 19 01:06:59 andrey-pc RiseException[10042]: Bus exception occured! Code: 0x7
+ноя 19 01:09:17 andrey-pc RiseException[10120]: Bus exception occured! Code: 0x7
+ноя 19 01:10:47 andrey-pc ExceptionHandling[10201]: Arythmetic exception occured! Code: 0x8
+ноя 19 01:10:50 andrey-pc ExceptionHadnling[10213]: Bus exception occured! Code: 0x7

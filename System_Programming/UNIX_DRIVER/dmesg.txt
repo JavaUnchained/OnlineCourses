@@ -1,0 +1,14 @@
+[  107.891917] systemd-journald[266]: File /var/log/journal/a74e59533f324c01b7d6f50d8b4e68b2/user-1000.journal corrupted or uncleanly shut down, renaming and replacing.
+[  127.470249] rfkill: input handler disabled
+[ 1383.351365] DriverUNIX: module license 'IGOR' taints kernel.
+[ 1383.351366] Disabling lock debugging due to kernel taint
+[ 1383.353515] I was assigned major number 0. To talk to
+[ 1383.353515] the driver, create a dev file with
+[ 1383.353516] 'mknod /dev/DriverUNIX c 0 0'.
+[ 1383.353516] Try various minot numbers. Try to cat and echo to
+[ 1383.353516] the device file.
+[ 1383.353517] Remove the device file and module when done.
+[ 1482.133980] Try to open character device /dev/DriverUNIX c 0 0'.
+[ 1482.133986] Try to read character device /dev/-1067081692 c 0 0'.
+[ 1482.133987] Try to read character device /dev/34 c 16 0'.
+[ 1482.133997] Try to close character device /dev/DriverUNIX c 0 0'.

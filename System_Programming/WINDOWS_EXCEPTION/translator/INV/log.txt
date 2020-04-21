@@ -1,0 +1,11 @@
+ [16.10.2019 21:37:25]> Question: using own traslattor in a C style. .
+ [16.10.2019 21:37:25]> Launch this programm. 
+ [16.10.2019 21:37:25]> In main. 
+ [16.10.2019 21:37:25]> Start translator like _set_se_translator(handler). 
+ [16.10.2019 21:37:25]> In c-style try. 
+ [16.10.2019 21:37:25]> Rised flt invalid operation exception. 
+ [16.10.2019 21:37:25]> RiseException settings is EXCEPTION_FLT_INVALID_OPERATION, 0, 0, NULL. 
+ [16.10.2019 21:37:25]> In handler function. 
+ [16.10.2019 21:37:25]> In c-style cath. 
+ [16.10.2019 21:37:25]> End the programm. 
+ [16.10.2019 21:37:25]> Closed the log file. 

@@ -1,0 +1,12 @@
+Linux version 5.3.11-1-MANJARO (builder@a7347f67d605) 
+(gcc version 9.2.0 (GCC)) #1 SMP PREEMPT Wed Nov 13 12:21:14 UTC 2019
+
+strace -- version 5.3
+Copyright (c) 1991-2019 The strace developers <https://strace.io>.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Optional features enabled: stack-trace=libunwind stack-demangle m32-mpers
+mx32-mpers
+
+

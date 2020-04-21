@@ -1,0 +1,4 @@
+Output in fist case:
+Arythmetic exception occured! Code: 0x8
+Output in second case:
+Bus exception occured! Code: 0x7
